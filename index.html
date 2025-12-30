@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio website showcasing my work and skills">
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">Portfolio</a>
+            <a href="#" class="logo">ook3d</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
@@ -25,16 +28,10 @@
         </div>
     </nav>
 
-    <header class="hero">
+    <header class="hero hero-cigar">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
-                <p class="hero-subtitle">Full Stack Developer | Designer | Creator</p>
-                <p class="hero-description">I build exceptional digital experiences that make a difference.</p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
+                <h1 class="hero-title">Welcome to my portfolio</h1>
             </div>
         </div>
     </header>
@@ -43,111 +40,286 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
+                <div class="about-intro">
+                    <h3>Hi, I'm ook3d</h3>
+                    <p class="about-tagline">3D Environment Artist & GTA V Modder</p>
+                </div>
                 <div class="about-text">
-                    <p>I'm a passionate developer with a love for creating beautiful, functional websites and applications. With expertise in modern web technologies, I bring ideas to life through clean code and thoughtful design.</p>
-                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.</p>
+                    <p>I'm a passionate 3D Environment Artist specializing in creating immersive, high-quality environments for GTA V and FiveM. With years of experience in the modding community, I've contributed to numerous high-profile projects and worked with renowned teams.</p>
+                    <p>My expertise spans from detailed interior design to large-scale environment creation, with a focus on optimization and performance. I've worked on everything from roleplay server interiors to ambitious map projects like the Liberty City Preservation Project.</p>
+                </div>
+                <div class="about-skills">
+                    <div class="skill-item">
+                        <h4>3D Modeling</h4>
+                        <p>Expert in creating detailed 3D models and environments</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Level Design</h4>
+                        <p>Crafting immersive spaces for roleplay and gameplay</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Optimization</h4>
+                        <p>Performance-focused development for smooth experiences</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Team Collaboration</h4>
+                        <p>Experience working with development teams and clients</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="section projects">
+    <section id="experience" class="section experience">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="placeholder-image">Project 1</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Project Name</h3>
-                        <p>A brief description of your amazing project and the technologies used to build it.</p>
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <h3>ProdigyRP / Loaded.gg / OpenWorld</h3>
+                        <h4>Lead Technical Artist</h4>
+                        <p>Lead technical artist for a large-scale GTA V roleplay server. Responsible for creating and maintaining high-quality 3D environments and interiors, optimizing performance, and mentoring junior artists.</p>
                         <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project →</a>
-                            <a href="#" class="project-link">GitHub →</a>
+                            <span class="tag">3D Modeling</span>
+                            <span class="tag">FiveM</span>
+                            <span class="tag">Interior Design</span>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="placeholder-image">Project 2</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Project Name</h3>
-                        <p>A brief description of your amazing project and the technologies used to build it.</p>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - Present</div>
+                        <h3>GabzV</h3>
+                        <h4>GTA V Modder</h4>
+                        <p>Helping with various aspects of vehicle mod creation, such as animations.</p>
                         <div class="project-tags">
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">Firebase</span>
-                            <span class="tag">TailwindCSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project →</a>
-                            <a href="#" class="project-link">GitHub →</a>
+                            <span class="tag">Animation</span>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="placeholder-image">Project 3</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Project Name</h3>
-                        <p>A brief description of your amazing project and the technologies used to build it.</p>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3>World Travel Team</h3>
+                        <h4>GTA V Modder</h4>
+                        <p>Core member of the world travel modding team, famously known for the 'Liberty City Preservation Project'.</p>
                         <div class="project-tags">
-                            <span class="tag">Next.js</span>
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">PostgreSQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project →</a>
-                            <a href="#" class="project-link">GitHub →</a>
+                            <span class="tag">GTA V Modding</span>
+                            <span class="tag">Team Collaboration</span>
+                            <span class="tag">3D Modelling</span>
+                            <span class="tag">Reverse Engineering</span>
                         </div>
                     </div>
-                </article>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <h3>Razed Mods</h3>
+                        <h4>3D Environment Artist / GTA V Modder</h4>
+                        <p>Created various features for the mod 'NaturalVision Evolved'.</p>
+                        <div class="project-tags">
+                            <span class="tag">3D Modeling</span>
+                            <span class="tag">Texturing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <h3>Hane Studios</h3>
+                        <h4>Environment Artist</h4>
+                        <p>Developed multiple high-quality interiors and environments for GTA V roleplay servers. Collaborated with development teams to create cohesive gameplay experiences.</p>
+                        <div class="project-tags">
+                            <span class="tag">Team Collaboration</span>
+                            <span class="tag">GTA V Modding</span>
+                            <span class="tag">Level Design</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section skills">
+    <section id="gallery" class="section gallery">
         <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React / Vue / Angular</li>
-                        <li>Responsive Design</li>
-                        <li>CSS Frameworks</li>
-                    </ul>
+            <h2 class="section-title">Project Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/AutoShop_Main.png" alt="Auto Shop Main">
+                    <div class="gallery-overlay">
+                        <h3>Auto Shop - Main Area</h3>
+                        <p>Primary workspace and service area</p>
+                    </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>RESTful APIs</li>
-                        <li>Database Management</li>
-                        <li>Authentication</li>
-                    </ul>
+
+                <div class="gallery-item">
+                    <img src="images/AutoShop_Back.png" alt="Auto Shop Back">
+                    <div class="gallery-overlay">
+                        <h3>Auto Shop - Back Area</h3>
+                        <p>Rear workshop space</p>
+                    </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Tools & Others</h3>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                        <li>CI/CD</li>
-                        <li>Cloudflare</li>
-                        <li>Agile/Scrum</li>
-                    </ul>
+
+                <div class="gallery-item">
+                    <img src="images/AutoShop_Gamba.png" alt="Auto Shop Gambling Room">
+                    <div class="gallery-overlay">
+                        <h3>Auto Shop - Underground</h3>
+                        <p>Secret gambling room</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/AutoShop_Gamba2.png" alt="Auto Shop Gambling Room 2">
+                    <div class="gallery-overlay">
+                        <h3>Auto Shop - Casino Area</h3>
+                        <p>Hidden casino space</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cafe.png" alt="Cafe Interior">
+                    <div class="gallery-overlay">
+                        <h3>Cafe</h3>
+                        <p>Cozy cafe interior</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cafe3.png" alt="Cafe Interior 3">
+                    <div class="gallery-overlay">
+                        <h3>Cafe - Seating Area</h3>
+                        <p>Customer seating space</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cafe4.png" alt="Cafe Interior 4">
+                    <div class="gallery-overlay">
+                        <h3>Cafe - Counter</h3>
+                        <p>Service counter area</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cafe5.png" alt="Cafe Interior 5">
+                    <div class="gallery-overlay">
+                        <h3>Cafe - Dining Area</h3>
+                        <p>Main dining space</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cafe6.png" alt="Cafe Interior 6">
+                    <div class="gallery-overlay">
+                        <h3>Cafe - Lounge</h3>
+                        <p>Relaxation lounge area</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cafe7.png" alt="Cafe Interior 7">
+                    <div class="gallery-overlay">
+                        <h3>Cafe - Kitchen</h3>
+                        <p>Preparation and kitchen area</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/police.png" alt="Police Department">
+                    <div class="gallery-overlay">
+                        <h3>Police Department - Main</h3>
+                        <p>Main station entrance</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/police2.png" alt="Police Department 2">
+                    <div class="gallery-overlay">
+                        <h3>Police Department - Office</h3>
+                        <p>Administrative offices</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/police3.png" alt="Police Department 3">
+                    <div class="gallery-overlay">
+                        <h3>Police Department - Office area</h3>
+                        <p>Office area</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/police4.png" alt="Police Department 4">
+                    <div class="gallery-overlay">
+                        <h3>Police Department - Chiefs Office</h3>
+                        <p>Police Chief's office</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/house09_01.png" alt="House Interior 1">
+                    <div class="gallery-overlay">
+                        <h3>Residential - Living Room</h3>
+                        <p>Modern living space</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/house09_4.png" alt="House Interior 4">
+                    <div class="gallery-overlay">
+                        <h3>Residential - Kitchen</h3>
+                        <p>Contemporary kitchen design</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/house09_6.png" alt="House Interior 6">
+                    <div class="gallery-overlay">
+                        <h3>Residential - Bedroom</h3>
+                        <p>Master bedroom suite</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/house09_8.png" alt="House Interior 8">
+                    <div class="gallery-overlay">
+                        <h3>Residential - Bathroom</h3>
+                        <p>Luxury bathroom</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/house19.jpg" alt="House 19">
+                    <div class="gallery-overlay">
+                        <h3>Residential Property</h3>
+                        <p>Custom home design</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/tailor.png" alt="Tailor Shop">
+                    <div class="gallery-overlay">
+                        <h3>Tailor Shop</h3>
+                        <p>Custom clothing store</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/cigar.png" alt="Cigar Lounge">
+                    <div class="gallery-overlay">
+                        <h3>Cigar Lounge</h3>
+                        <p>Luxury lounge atmosphere</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -159,21 +331,13 @@
             <div class="contact-content">
                 <p class="contact-text">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
                 <div class="contact-links">
-                    <a href="mailto:your.email@example.com" class="contact-link">
+                    <a href="mailto:worldtravel.dev" class="contact-link">
                         <span class="icon">✉</span>
-                        your.email@example.com
+                        worldtravel.dev
                     </a>
                     <a href="https://github.com/ook3D" class="contact-link" target="_blank" rel="noopener noreferrer">
                         <span class="icon">🔗</span>
                         GitHub
-                    </a>
-                    <a href="https://linkedin.com/in/yourusername" class="contact-link" target="_blank" rel="noopener noreferrer">
-                        <span class="icon">🔗</span>
-                        LinkedIn
-                    </a>
-                    <a href="https://twitter.com/yourusername" class="contact-link" target="_blank" rel="noopener noreferrer">
-                        <span class="icon">🔗</span>
-                        Twitter
                     </a>
                 </div>
             </div>
@@ -182,7 +346,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <p>&copy; 2025 ook3d. All rights reserved.</p>
         </div>
     </footer>
 
